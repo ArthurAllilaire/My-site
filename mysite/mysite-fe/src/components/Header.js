@@ -17,7 +17,7 @@ class Header extends Component {
                     <DropdownToggle caret nav>
                         Computer Science
                     </DropdownToggle>
-                    <DropdownMenu right>
+                    <DropdownMenu end>
                         <DropdownItem>
                             Courses
                         </DropdownItem>
@@ -30,7 +30,7 @@ class Header extends Component {
                     <DropdownToggle caret nav>
                         Projects
                     </DropdownToggle>
-                    <DropdownMenu right>
+                    <DropdownMenu end>
                         <DropdownItem>
                             Minesweeper
                         </DropdownItem>
@@ -47,7 +47,7 @@ class Header extends Component {
                     <DropdownToggle caret nav>
                         Other Articles
                     </DropdownToggle>
-                    <DropdownMenu right>
+                    <DropdownMenu end>
                         <DropdownItem>
                             Minesweeper
                         </DropdownItem>
@@ -71,7 +71,7 @@ class Header extends Component {
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className="" href="https://github.com/reactstrap/reactstrap" color="danger" outline >
+                    <NavLink className="" href="https://github.com/reactstrap/reactstrap" color="danger" outline="true" >
                         Log in
                     </NavLink>
                 </NavItem>

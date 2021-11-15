@@ -1,11 +1,16 @@
 import './App.scss';
 import Header from "./components/Header";
+import HomePage from "./components/HomePage";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Fragment } from 'react';
 
 
 function App() {
   return (
-    <Header />
+    <Fragment>    
+      <Header />
+      <HomePage />
+    </Fragment>
   );
 }
 
